@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/Home.css">
+    <link rel="stylesheet" href="../plugins/font_awesome/css/all.min.css">
+    <script src="../js/Home.js"></script>
+    <title>Store</title>
+</head>
+
+<body>
+    <header id="header" class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Danh mục
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Sách nói</a></li>
+                                <li><a class="dropdown-item" href="#">Kinh doanh</a></li>
+                                <li><a class="dropdown-item" href="#">Ngôn tình</a></li>
+                                <li><a class="dropdown-item" href="#">Kỹ năng</a></li>
+                                <li><a class="dropdown-item" href="#">Chăm sóc gia đình</a></li>
+                                <li><a class="dropdown-item" href="#">Thiếu nhi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sách mới nhất</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bảng xếp hạng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Miễn phí HOT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tuyển tập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Khuyên đọc</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Bạn muốn tìm gì?"
+                            aria-label="Bạn muốm tìm gì?">
+                        <button class="btn btn-success text-light h-100" type="submit">Tìm</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>  
+
+    <div id="content">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1727_new.jpg?v=3&w=1580&h=400" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img  src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1724_new.jpg?v=4&w=1580&h=400" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img  src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1696_new.jpg?v=2&w=1580&h=400" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1702_new.jpg?v=2&w=1580&h=400" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="banner">
+            <img src="https://ebook.waka.vn/themes/desktop/reactjs//images/bannerButton.jpg" alt="">
+            <button class="btn btn-success rounded-pill read">Đọc ngay</button>
+        </div>
+
+        <section>
+            <div class="sct">
+                <h5>Mới trong tuần</h5>
+                <hr/>
+                <div class="grid-container">
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/37388.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Nghề phò mã</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Thập Trang</i></p>
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/37412.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Lược sử tương lai </p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Blake J.Harris</i></p>
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/37400.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Khuôn mặt người khác</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Kobo Abe</i></p>
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/37397.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Sát nhân mạng</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Jeffery Deaver</i></p>
+
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/37367.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Này buông cô ấy ra</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Ức Cẩm</i></p>
+
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/37343.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Lưu manh đi lấy vợ</p>
+                        <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Nữu Nữu Mật</i></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="sct">
+                <h5>BXH Tháng</h5>
+                <hr/>
+                <div class="grid-container">
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/10990.jpg?v=2&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Đắc nhân tâm</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Dale Camegie</i></p>
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/35981.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Thuật đọc tâm</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Nhiều tác giả</i></p>
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/36080.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Vượt bẩy cảm xúc</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Susan David</i></p>
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/34862.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Năm đầu tiên khi tôi</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Mao Lợi</i></p>
+
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/1/37367.jpg?v=1&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Này buông cô ấy ra</p>
+                       <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Ức Cẩm</i></p>
+
+                    </div>
+                    <div class="item">
+                        <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.book/0/0/0/2359.jpg?v=3&w=200&h=292" />
+                        <button class="rounded-circle bg-success border-0 readbook"><i class="fa fa-book-open text-white"></i></button>
+                        <p>Tư duy nhanh và chậm</p>
+                        <hr class="mt-0 mb-0"/>
+                        <p class="note"><i>Daniel Kelmann</i></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="content1">
+                <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item p-5 active bg-info text-center text-light h-100">
+                        <p>__Kẻ giấu mặt, Nicholas Sparks___</p>
+                        <p style="font-size: 1.5rem;">Yêu đương đáng sợ lắm. Thế nên họ mới gọi là "chìm đắm trong tinh yêu" chứ không phải là "lững lời trôi về phía tình yêu".</p>
+                      </div>
+                      <div class="carousel-item p-5  bg-danger text-center text-light h-100">
+                        <p>__Bóng hình của gió, Carlos Ruiz Zafon__</p>
+                        <p style="font-size: 1.5rem;">Sách như tấm gương: Cậu chỉ thấy trong những gì cậu đã có sẵn trong bản thân mình.</p>
+                      </div>
+                      <div class="carousel-item p-5  bg-secondary text-center text-light h-100">
+                        <p>__Tiếng chim hót trong bụi mận gai, Colleen Mccullough__</p>
+                        <p style="font-size: 1.5rem;">Tất cả những gì tốt đẹp nhất chỉ có thể có được khi ta chịu trả giá bằng nổi đau khổ vĩ đại...</p>
+                      </div>
+                      <div class="carousel-item p-5  bg-success text-center text-light h-100">
+                        <p>__Hoa linh lan, Gào</p>
+                        <p style="font-size: 1.5rem;">Có những yêu thương, không bao giờ thuộc về người đến muộn.</p>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
