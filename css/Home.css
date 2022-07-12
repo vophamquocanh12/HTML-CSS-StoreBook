@@ -95,15 +95,16 @@ p.note{
   margin-bottom: 4rem;
 }
 
-footer{
+#ft{
   margin-top: 2rem;
   margin-left: 4rem;
   margin-right: 4rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 90%;
 }
-.item-footer{
- display: inline-block;
- margin: 1rem;  
+#ft > .item-footer {
+  width: 100%;
 }
 /*Responsive*/
 
@@ -111,6 +112,10 @@ footer{
   .grid-container {
     grid-template-columns: repeat(2, auto);
     text-align: center;
+  }
+  #ft{
+    grid-template-columns: repeat(2,auto);
+    gap: 3rem;
   }
 }
 @media only screen and (min-width: 600px) {
